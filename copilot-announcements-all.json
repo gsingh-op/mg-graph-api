@@ -1,6 +1,22 @@
 [
   {
     "LastModifiedDateTime": "September 25, 2025",
+    "StartDateTime": "September 19, 2025",
+    "EndDateTime": "December 15, 2025",
+    "Title": "(Updated) Facilitator agent to be generally available in Teams meetings",
+    "Id": "MC1155927",
+    "Category": "stayInformed",
+    "Severity": "normal",
+    "IsMajorChange": false,
+    "Tags": "Updated message, New feature, User impact",
+    "ActionRequiredByDateTime": null,
+    "Services": "Microsoft Copilot (Microsoft 365)",
+    "RoadmapIds": "478611,499891,500701",
+    "Summary": "The Facilitator agent is now generally available for Microsoft 365 Copilot-licensed users in Teams meetings, helping organize agendas, track progress, and capture highlights in real time. It integrates with Planner, Word, Loop, and Teams Rooms, and can be enabled by users before or during meetings without requiring recording or transcription.",
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
+  },
+  {
+    "LastModifiedDateTime": "September 25, 2025",
     "StartDateTime": "August 27, 2025",
     "EndDateTime": "March 24, 2026",
     "Title": "(Updated) Microsoft Copilot dashboard (in Viva Insights): Adoption metrics for Microsoft 365 Copilot Chat",
@@ -13,8 +29,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "499899",
     "Summary": "Microsoft is introducing M365 Copilot Chat adoption metrics in the Viva Insights Copilot dashboard, providing detailed usage insights for unlicensed users. Public preview starts late October 2025; GA date is pending feedback. Admins can control or exclude users via VFAM or PowerShell. No action needed to enable.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 25, 2025",
@@ -30,25 +45,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "496596",
     "Summary": "Microsoft 365 Copilot will let licensed users select specific content sources for Copilot Chat responses, enhancing relevance and control. The feature rolls out worldwide from late October to mid-November 2025, is enabled by default, requires no admin action, and does not affect existing policies or compliance.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
-  },
-  {
-    "LastModifiedDateTime": "September 24, 2025",
-    "StartDateTime": "August 25, 2025",
-    "EndDateTime": "December 31, 2025",
-    "Title": "(Updated) Executable name update for Microsoft 365 Copilot app for Windows",
-    "Id": "MC1141945",
-    "Category": "planForChange",
-    "Severity": "normal",
-    "IsMajorChange": false,
-    "Tags": "Updated message, Feature update, User impact, Admin impact",
-    "ActionRequiredByDateTime": null,
-    "Services": "Microsoft 365 suite, Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
-    "RoadmapIds": null,
-    "Summary": "The Microsoft 365 Copilot app for Windows will update its executable name from Webviewhost.exe to M365Copilot.exe after late September 2025. The change improves clarity for management and does not affect functionality. Organizations with dependencies on the old name should update references accordingly.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "September 24, 2025",
@@ -64,8 +61,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot's Researcher Agent now offers customizable report length and multiple export formats, including Word. Rollout starts late September 2025, completing by late October. Features are enabled by default, require no admin action, and support control via Entra ID group membership.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 24, 2025",
@@ -81,8 +77,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft Copilot in Word will add document statistics—author, last modified date, open count—in the Dynamic Document Snapshot's Activity tab. Rolling out worldwide mid-November to late November 2025, this default-on feature requires no admin setup and enhances collaboration by providing key document insights.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 24, 2025",
@@ -98,8 +93,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "500377",
     "Summary": "Microsoft 365 Copilot Chat now lets licensed users include files and emails in prompts by typing '/' in the web chat, enhancing prompt relevance. Email access in Outlook starts rolling out October 2025. No admin action is needed; users see only content they have permission to access.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "September 24, 2025",
@@ -115,8 +109,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "481136",
     "Summary": "Microsoft 365 Copilot's chat will soon include \"File type\" and \"People\" filters in the CIQ menu's Files tab, enhancing search refinement. This update, rolling out globally from late September to early October 2025, requires no admin action and improves finding relevant files faster.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "September 24, 2025",
@@ -132,25 +125,23 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Starting late September 2025, Microsoft Copilot Chat will feature a new Tools button offering easy access to task-specific AI capabilities based on user licenses. This improves feature discoverability and usability, requires no admin setup, and will complete rollout by mid-October 2025.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 24, 2025",
-    "StartDateTime": "September 19, 2025",
-    "EndDateTime": "December 15, 2025",
-    "Title": "(Updated) Facilitator agent to be generally available in Teams meetings",
-    "Id": "MC1155927",
-    "Category": "stayInformed",
+    "StartDateTime": "August 25, 2025",
+    "EndDateTime": "December 31, 2025",
+    "Title": "(Updated) Executable name update for Microsoft 365 Copilot app for Windows",
+    "Id": "MC1141945",
+    "Category": "planForChange",
     "Severity": "normal",
     "IsMajorChange": false,
-    "Tags": "Updated message, New feature, User impact",
+    "Tags": "Updated message, Feature update, User impact, Admin impact",
     "ActionRequiredByDateTime": null,
-    "Services": "Microsoft Copilot (Microsoft 365)",
-    "RoadmapIds": "478611,499891,500701",
-    "Summary": "The Facilitator agent and Teams Pro Management service will be generally available in Microsoft Teams Rooms Pro from early September to mid-October 2025. The new Pro Management Portal will be accessible by default, requiring no admin action before rollout. Review configurations and notify users accordingly.",
-    "Platforms": "Android, Desktop, iOS, Mac, Web",
-    "ExternalLink": null
+    "Services": "Microsoft 365 suite, Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
+    "RoadmapIds": null,
+    "Summary": "The Microsoft 365 Copilot app for Windows will update its executable name from Webviewhost.exe to M365Copilot.exe after late September 2025. The change improves clarity for management and does not affect functionality. Organizations with dependencies on the old name should update references accordingly.",
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 24, 2025",
@@ -166,8 +157,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot Researcher and Copilot Studio now offer Anthropic models (Claude Opus 4.1 and Sonnet 4) alongside OpenAI models. Admin opt-in is required, with rollout starting September 24, 2025. Anthropic models are in preview, hosted externally, and governed by Anthropic's terms, not Microsoft's.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 23, 2025",
@@ -183,8 +173,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "488298",
     "Summary": "Copilot users in multi-tenant business-to-business organizations will soon access intelligent meeting recaps from the resource tenant after meetings. Rollout starts early November 2025, completing by late November. No action is needed from admins or users for this update.",
-    "Platforms": "Desktop, Mac",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac"
   },
   {
     "LastModifiedDateTime": "September 23, 2025",
@@ -200,8 +189,7 @@
     "Services": "Microsoft 365 Copilot Chat",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot’s Memory update, rolling out October 2025, uses chat history to personalize responses and offers a redesigned Memory settings page for better user control. Existing admin settings remain unchanged, and no admin action is required unless updating documentation or training.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 23, 2025",
@@ -217,8 +205,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "501560",
     "Summary": "Microsoft 365 Copilot's AI video creator is upgraded with transcript-based editing, custom media from OneDrive, natural voices, Brand Kit integration, improved scene structure, and a redesigned interface. Rolling out worldwide from late September to October 2025, it enables easier, professional video creation from documents and text prompts.",
-    "Platforms": "Desktop, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac, Web"
   },
   {
     "LastModifiedDateTime": "September 23, 2025",
@@ -234,8 +221,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "501107",
     "Summary": "Microsoft 365 Copilot Chat is being integrated side-by-side in Teams Chats, Channels, Calling, and Meetings for licensed users on desktop and web. Public preview starts October for chats and calls, December for meetings, with general availability following. Prior Copilot history remains accessible via the More Options menu.",
-    "Platforms": "Desktop, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac, Web"
   },
   {
     "LastModifiedDateTime": "September 22, 2025",
@@ -251,8 +237,7 @@
     "Services": "Microsoft Copilot (Microsoft 365), Microsoft 365 Copilot Chat",
     "RoadmapIds": null,
     "Summary": "Users of Copilot Chat in Microsoft 365 will soon be able to upload multiple reference images per session, enhancing image generation. This feature, enabled by default, will roll out globally in late September 2025 with no admin action required. Organizations may update support and documentation accordingly.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 22, 2025",
@@ -268,8 +253,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Surveys Agent in Microsoft 365 Copilot enables users to create, distribute, and analyze surveys via chat, powered by Microsoft Forms. Public preview starts mid-August 2025; general availability rolls out late September to early October 2025. The feature is off by default and requires admin configuration and licensing.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 22, 2025",
@@ -285,8 +269,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Viva Engage agents are in Public Preview starting September 18, 2025, allowing community admins to add AI agents that draft answers using community and SharePoint content. SharePoint grounding will enhance answer accuracy by late September. General Availability is planned for early 2026, with admin controls for posting and content access.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 19, 2025",
@@ -302,8 +285,7 @@
     "Services": "Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "496365,496366,496367",
     "Summary": "Microsoft 365 Copilot in PowerPoint will support enterprise image libraries via SharePoint OAL or Templafy starting September. Admins can connect branded image libraries for users to generate slides with organization images, ensuring brand consistency. Setup requires metadata-rich images and admin configuration.",
-    "Platforms": "Web, Desktop, Mac",
-    "ExternalLink": null
+    "Platforms": "Web, Desktop, Mac"
   },
   {
     "LastModifiedDateTime": "September 19, 2025",
@@ -319,8 +301,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Audio overviews for PDFs, Word documents, and Notebooks with customizable two-host narration will roll out worldwide from late September to mid-October 2025. Available by default to users with Copilot licenses, this feature enhances accessibility and requires no admin setup or compliance changes.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 19, 2025",
@@ -336,8 +317,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "499809",
     "Summary": "Microsoft 365 Copilot introduces a new admin policy allowing specific roles to access harmful content in Copilot Chat, disabled by default. Rollout starts late September 2025. Admins can assign this policy to enable users to disable harmful content protection per conversation, requiring a Copilot license.",
-    "Platforms": "TeamsAndSurfaceDevices, Web",
-    "ExternalLink": null
+    "Platforms": "TeamsAndSurfaceDevices, Web"
   },
   {
     "LastModifiedDateTime": "September 18, 2025",
@@ -353,8 +333,7 @@
     "Services": "SharePoint Online, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Knowledge Agent (preview) is a new AI-powered SharePoint feature launching mid-September 2025, unifying AI tools into a role-adaptive interface for content optimization and Copilot support. It changes agent licensing, adds intelligent actions, and allows admins to control site participation without individual feature setup.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 18, 2025",
@@ -370,8 +349,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "489823",
     "Summary": "The Skills agent, now in Microsoft 365 Copilot's Frontier program, helps identify and develop skills, building skill-based teams across Teams, Surface, and Web. Powered by People Skills, it requires a Copilot license and admin deployment via the Copilot Control center. Rollout begins September 2025.",
-    "Platforms": "TeamsAndSurfaceDevices, Web",
-    "ExternalLink": null
+    "Platforms": "TeamsAndSurfaceDevices, Web"
   },
   {
     "LastModifiedDateTime": "September 18, 2025",
@@ -387,8 +365,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot is integrated into Windows File Explorer and OneDrive Activity Center, allowing users to summarize documents, generate FAQs, compare files, and ask questions about OneDrive files. The feature rolls out globally by mid-September 2025, is on by default, and requires no admin setup.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 18, 2025",
@@ -404,8 +381,7 @@
     "Services": "Microsoft 365 Copilot Chat",
     "RoadmapIds": "496139",
     "Summary": "Microsoft 365 admin center will introduce prepaid Capacity Packs for Copilot Chat, offering 25,000 messages/month to manage costs before pay-as-you-go charges. Rollout starts late September 2025. Features include usage monitoring, departmental allocation, automatic PAYG fallback, and no required admin action before rollout.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 18, 2025",
@@ -421,8 +397,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "498233",
     "Summary": "Microsoft Viva Connections mobile will introduce an AI audio briefing feature providing summaries of top news with playback controls, requiring a Microsoft 365 Copilot license. The rollout starts late September 2025, completes by November, is on by default, and requires no user configuration.",
-    "Platforms": "Android, iOS",
-    "ExternalLink": null
+    "Platforms": "Android, iOS"
   },
   {
     "LastModifiedDateTime": "September 18, 2025",
@@ -438,8 +413,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft Teams introduces Channel Agent, an AI-powered assistant for each channel that summarizes conversations, drafts status reports, assigns tasks via Planner, and answers questions. Available in public preview from mid-September 2025, it requires specific Microsoft 365 and Copilot licenses and has limitations on channel types and languages. Admins can manage auto-creation settings.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -455,8 +429,7 @@
     "Services": "Microsoft Copilot (Microsoft 365), Microsoft 365 Copilot Chat",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot app will introduce a new Library experience by mid-October 2025, consolidating Copilot-generated images and Pages into one section. The Pages menu will be removed, with no admin action needed. Library is enabled by default for users with Copilot chat enabled.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -472,8 +445,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot Chat will add an \"Open in Word\" button by early October 2025, enabling users with a Copilot license to transfer AI-generated responses directly into Word for editing. The feature is automatic, requires no admin action, and has no impact on existing workflows or compliance.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -489,8 +461,7 @@
     "Services": "Microsoft 365 Copilot Chat",
     "RoadmapIds": null,
     "Summary": "Starting October 2025, the Microsoft 365 Copilot app for Windows will show a non-blocking \"Update available\" button, allowing users to update immediately or later without interrupting use. No admin action is needed, and the update ensures access to new features and improvements.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -506,8 +477,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot Chat is being unified across Word, Excel, PowerPoint, Outlook, and OneNote, with some features in Word and PowerPoint improved, retired, or temporarily unavailable. Previous in-app chat history won’t carry over, but admins can retrieve it via audit logs. New features roll out between now and November.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -523,8 +493,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "488104",
     "Summary": "Microsoft Viva Insights introduces a new Power BI report for Microsoft 365 Copilot agents, providing usage and adoption insights. Public preview starts early October 2025, general availability in December 2025. The report supports leaders and analysts with detailed agent metrics while ensuring privacy via minimum group size thresholds.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -540,8 +509,7 @@
     "Services": "Microsoft 365 apps, Microsoft Copilot (Microsoft 365), Microsoft 365 Copilot Chat",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot Search admin experience is expanding to AI Admin and Global Reader roles, allowing designated admins to manage or view Copilot Search settings. This rollout begins late September 2025, is enabled by default for eligible tenants, and access is controlled via Microsoft Entra ID.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -557,8 +525,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "494830",
     "Summary": "Microsoft 365 Copilot Chat is being rolled out across Word, Excel, PowerPoint, OneNote, and Outlook on multiple platforms starting mid-2025. It respects user state, requires no admin action unless pinning is disabled, and does not change data processing or AI capabilities.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "September 17, 2025",
@@ -574,8 +541,7 @@
     "Services": "Microsoft Teams, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "490564",
     "Summary": "Microsoft Teams will introduce interactive agents in meetings and calls, allowing private and group interactions with session-supported agents built on Microsoft Copilot. The rollout is delayed, requires Microsoft 365 licenses, and will be automatic with no admin action needed. Admins can pre-pin agents for easier access.",
-    "Platforms": "Desktop",
-    "ExternalLink": null
+    "Platforms": "Desktop"
   },
   {
     "LastModifiedDateTime": "September 16, 2025",
@@ -591,8 +557,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "493288",
     "Summary": "The Researcher Agent is integrated into Copilot Notebooks, enabling complex, multi-step research across enterprise data using OpenAI’s model. Rollout starts mid-September 2025, completing by late October. The feature is on by default for eligible tenants, enhancing in-context research workflows without user action needed.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 16, 2025",
@@ -608,8 +573,7 @@
     "Services": "SharePoint Online, Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "497142",
     "Summary": "Microsoft Viva Connections will offer AI-generated audio briefings for SharePoint news, playable with controls like play, pause, and speed adjustment. Available from August 28, 2025, this feature requires a Microsoft 365 Copilot license and supports hands-free news consumption on Teams, Surface, and web.",
-    "Platforms": "TeamsAndSurfaceDevices, Web",
-    "ExternalLink": null
+    "Platforms": "TeamsAndSurfaceDevices, Web"
   },
   {
     "LastModifiedDateTime": "September 16, 2025",
@@ -625,8 +589,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "418564",
     "Summary": "Microsoft Copilot will enable file summarization in one-on-one or group Teams chats for Word and PDF files, respecting file security and sensitivity labels. Rollout starts late July 2025, completing by early September 2025 worldwide. No admin action is needed; a Microsoft 365 Copilot license is required.",
-    "Platforms": "Desktop, Mac",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac"
   },
   {
     "LastModifiedDateTime": "September 16, 2025",
@@ -642,8 +605,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "494834",
     "Summary": "Microsoft will introduce a new .page file extension for Copilot Pages, identical in functionality to the .loop extension but with a new icon. The rollout starts mid-August 2025 and completes by late September, requiring no admin action. Users should be notified of this change.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 16, 2025",
@@ -659,8 +621,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "502617",
     "Summary": "Microsoft Admin Center will enable admins to manage agent permissions directly with a unified view of consents and risk levels. Global Admin consent allows AI Admin Role to deploy agents. Rollout begins late September 2025, improving efficiency, transparency, and introducing automation for low-risk agents.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "September 12, 2025",
@@ -676,8 +637,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot in PowerPoint will enable referencing Microsoft Loop components in presentations starting mid-September 2025. This feature, available on Windows, Mac, and web, requires no admin setup and improves collaboration by integrating Loop content seamlessly. Users should review configurations and notify teams.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 12, 2025",
@@ -693,8 +653,7 @@
     "Services": "Microsoft 365 for the web, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Outlook Mobile will roll out a context-aware Copilot Chat overlay for iOS and Android from late September 2025 to early March 2026. It enables users with Microsoft 365 Copilot licenses to interact with AI while using email, calendar, and contacts, providing personalized, on-screen contextual assistance. No action is needed.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 12, 2025",
@@ -710,8 +669,7 @@
     "Services": "Microsoft 365 apps, Microsoft Copilot (Microsoft 365), Microsoft 365 Copilot Chat",
     "RoadmapIds": null,
     "Summary": "Starting October 2025, Microsoft will automatically install the Microsoft 365 Copilot app on Windows devices with Microsoft 365 desktop apps, except in the EEA. The app appears in the Start menu, enabled by default, with admins able to opt out and prepare users accordingly.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 11, 2025",
@@ -727,8 +685,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "498319",
     "Summary": "Microsoft Outlook is introducing Immersive Search with a Copilot side pane that provides AI-generated summaries from emails, Teams messages, and documents after a search. Rolling out worldwide from late September to October 2025, this feature is on by default, requires no admin setup, and is available to Copilot-licensed tenants.",
-    "Platforms": "Android, Desktop, iOS, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
   },
   {
     "LastModifiedDateTime": "September 11, 2025",
@@ -744,8 +701,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "August Copilot readiness insights are now available in the Microsoft 365 admin center's Copilot Health page for specific admin roles. These insights help monitor and resolve configuration issues affecting Copilot, with ongoing updates planned. Admins should regularly review and address flagged issues to optimize Copilot performance.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 11, 2025",
@@ -761,8 +717,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "475055,475064",
     "Summary": "Microsoft 365 Copilot in PowerPoint will soon allow users to create presentations using organizational brand images via SharePoint's organizational asset library or Templafy. Admins can connect these libraries to Copilot, enabling on-brand image use alongside Microsoft 365 images. Rollout starts June 2025; a Copilot license is required.",
-    "Platforms": "Web, Mac",
-    "ExternalLink": null
+    "Platforms": "Web, Mac"
   },
   {
     "LastModifiedDateTime": "September 10, 2025",
@@ -778,8 +733,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "500376",
     "Summary": "Microsoft 365 is introducing a new tenant-level admin control to manage who can create org-wide sharing links for user-built Copilot agents. Rolling out from October to late October 2025, admins can customize sharing permissions to align with organizational policies via the Microsoft 365 admin center.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 10, 2025",
@@ -795,8 +749,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "497537,497538,497539",
     "Summary": "Microsoft 365 Copilot for PowerPoint will allow users to reference one Excel file stored in OneDrive or SharePoint when creating slides, enabling data-driven presentations with charts or tables. This feature requires a Copilot add-on license, is on by default, and will roll out worldwide from late November to mid-December 2025.",
-    "Platforms": "Web, Desktop, Mac",
-    "ExternalLink": null
+    "Platforms": "Web, Desktop, Mac"
   },
   {
     "LastModifiedDateTime": "September 09, 2025",
@@ -812,8 +765,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "491022",
     "Summary": "Microsoft Viva Insights will introduce the Skills landscape Power BI report, enabling analysts to explore organizational People Skills data, skill distribution, and hierarchy. Public preview starts late June 2025; general availability begins late September 2025. Setup requires enabling People Skills data in Viva Insights with appropriate licenses.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 09, 2025",
@@ -829,8 +781,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Starting September 2025, Copilot-licensed users will have their monthly transcription quota increased from 300 to 30,000 minutes in Word and OneNote. The change requires no admin action, applies per user, and may increase AI interaction with customer data without altering data storage or retention policies.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 09, 2025",
@@ -846,8 +797,7 @@
     "Services": "Microsoft Teams, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "500379",
     "Summary": "AI Workflows in the Microsoft Teams Workflows app use Microsoft 365 Copilot scheduled prompts to automate tasks via templates. Available to licensed users, admins must enable the app. Rolling out from late September to October 2025, the feature is off by default and enhances productivity through intelligent automation.",
-    "Platforms": "Desktop, Mac",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac"
   },
   {
     "LastModifiedDateTime": "September 09, 2025",
@@ -863,8 +813,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot's Researcher Agent now offers Source Controls, allowing licensed users to select specific sources (Web, Work, Graph entities) for research. Rolling out from late September to October 2025, this feature appears as a button in Copilot apps and requires no admin action.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 09, 2025",
@@ -880,8 +829,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Viva Engage public discussion posts will appear in Microsoft 365 search results on Office.com, SharePoint.com, and Copilot Search starting late November 2025. No admin action is needed, content visibility respects user access, and a Copilot license is required for Copilot Search. Inform users accordingly.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 05, 2025",
@@ -897,8 +845,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "497999",
     "Summary": "Microsoft 365 admin center introduces a preview usage report for Microsoft 365 Copilot Chat agents, showing active users, usage breakdown, license state, and agent creator type. Available now, it covers 30 days of data from August 19, 2025, excluding SharePoint and Custom engine agents. No admin action needed.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 05, 2025",
@@ -914,8 +861,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "486698",
     "Summary": "Microsoft Viva Insights will add new prompt categories—Ask and find, Catch up, Draft and brainstorm, and Other—to the Microsoft Copilot Dashboard by late October 2025. These will appear in Adoption and Impact tabs, require no admin action, and help track Copilot use cases and metrics.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 05, 2025",
@@ -931,8 +877,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "499428",
     "Summary": "Microsoft 365 Copilot in Word will roll out worldwide from October to November 2025, enabling users with licenses to create, edit, and transform content via chat. No admin action is needed; users can review changes, and no compliance issues are identified.",
-    "Platforms": "Desktop, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac, Web"
   },
   {
     "LastModifiedDateTime": "September 05, 2025",
@@ -948,8 +893,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot will enhance presentation creation with improved content depth, narrative flow, structure, and design, saving presentations to OneDrive. The update rolls out globally from mid-August to mid-September 2025, requires no admin action, and needs a Copilot license. Template and graphic description support are pending.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "September 04, 2025",
@@ -965,8 +909,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "501427",
     "Summary": "Microsoft 365 Copilot introduces two new SharePoint Admin Center skills: step-by-step task guidance and multi-variable site search for improved admin efficiency and governance. Available worldwide from October 6-7, 2025, these AI-driven features require a Copilot license and offer enhanced compliance and control via Entra ID.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 04, 2025",
@@ -982,8 +925,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "475249",
     "Summary": "Starting mid-May 2025, Outlook users with a Microsoft 365 Copilot license can summarize PDF, Word, and PowerPoint email attachments using Copilot across web, desktop, and mobile. The feature rolls out automatically, excludes encrypted/MIP-protected files, and respects the Copilot toggle setting.",
-    "Platforms": "Android, Desktop, iOS, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
   },
   {
     "LastModifiedDateTime": "September 04, 2025",
@@ -999,8 +941,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "482198",
     "Summary": "Microsoft SharePoint will introduce a new FAQ web part powered by Microsoft 365 Copilot, enabling easy FAQ creation from grounding data. Readers don’t need a Copilot license, but creators do. Rollout begins August 2025 with full availability by November 2025. No admin action required.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 03, 2025",
@@ -1016,8 +957,7 @@
     "Services": "Microsoft Teams, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "499891",
     "Summary": "Microsoft Teams Rooms on Windows will support a Facilitator Agent in meetings, providing AI-generated notes, chat interactions, and an agenda timer on the front-of-room display. Public preview runs from March to September 2025; general availability from October to November 2025. No user action required.",
-    "Platforms": "Desktop",
-    "ExternalLink": null
+    "Platforms": "Desktop"
   },
   {
     "LastModifiedDateTime": "September 02, 2025",
@@ -1033,8 +973,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "495464",
     "Summary": "Microsoft Copilot dashboard in Viva Insights will add benchmarks to compare Copilot usage internally and externally, helping identify adoption trends. Rolling out from late September to October 2025, it includes privacy-protected external benchmarks and internal cohort comparisons, with admin controls for access management.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "September 02, 2025",
@@ -1050,8 +989,7 @@
     "Services": "Microsoft Copilot (Microsoft 365), Microsoft 365 Copilot Chat",
     "RoadmapIds": "420335",
     "Summary": "Microsoft 365 Copilot Chat's Rewrite feature will launch in Edge for Business by late September 2025, enabling users to draft and rephrase text via right-click. It’s enabled by default, subject to DLP restrictions, and manageable by admins through the InlineComposeEnabled policy. No prior admin action is needed.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "May 08, 2025",
@@ -1067,8 +1005,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "483519",
     "Summary": "Word Copilot's document snapshot provides real-time summaries, key insights, activity and comment highlights, and coaching suggestions. Features are rolling out between April and August 2025. Organizations should update training and documentation. Available to users with a Copilot license. More details at Microsoft 365 Roadmap ID 483519.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "March 26, 2025",
@@ -1084,8 +1021,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Admins can configure access to new Microsoft Viva Pulse templates for Microsoft 365 Copilot licensed users. This feature, available from late March to mid-April 2025, allows admins to manage template access and review content. No action is required before the rollout, but reviewing configurations and notifying users is recommended.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "June 27, 2025",
@@ -1101,8 +1037,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot will retire the Visual Creator agent in Copilot Chat by late July 2025. Users can continue generating images in Copilot Chat and use the Create module in Microsoft 365 Copilot for broader content creation. No admin action is required, but users should be informed about this change.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "June 27, 2025",
@@ -1118,8 +1053,7 @@
     "Services": "Microsoft Copilot (Microsoft 365), Microsoft Purview",
     "RoadmapIds": "423483",
     "Summary": "Microsoft Purview Data Loss Prevention (DLP) for Microsoft 365 Copilot is now generally available, allowing organizations to use DLP policies to detect sensitivity labels and restrict access to sensitive content. The rollout begins in late June 2025 and completes by late July 2025. Admins can edit or create new policies and use alerting and simulation features.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "June 25, 2025",
@@ -1135,8 +1069,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "485734",
     "Summary": "Microsoft Viva Insights will roll out a unified Copilot Analytics experience for Copilot Dashboard users and Viva Insights analysts from late June to mid-July 2025. This update will migrate existing settings and provide new reporting capabilities. No action is required from admins, but they may update policies and training.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "June 23, 2025",
@@ -1152,8 +1085,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "413111",
     "Summary": "Microsoft 365 Copilot BizChat will soon allow users to use CIQ to ground prompts with third-party data from Microsoft Graph Connectors. The rollout will start in early July 2025 and complete by early August 2025. No admin action is required, but users should be notified about this change.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "June 16, 2025",
@@ -1169,8 +1101,7 @@
     "Services": "Microsoft Copilot (Microsoft 365), Microsoft Purview",
     "RoadmapIds": "394281",
     "Summary": "Microsoft Purview Insider Risk Management will soon include risky AI usage detections. Public preview starts in December 2024, with general availability in August 2025. This update helps admins identify risky AI activities in M365 Copilot, Copilot Studio, and ChatGPT Enterprise. Admins should prepare by creating policies and using new analytics and indicators.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "June 12, 2025",
@@ -1186,8 +1117,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "494845",
     "Summary": "Copilot is expanding to mobile, allowing users to prepare for meetings on the go by summarizing key content. The rollout will occur from early to late July 2025, requiring no admin action but user notification and documentation updates.",
-    "Platforms": "Android, iOS",
-    "ExternalLink": null
+    "Platforms": "Android, iOS"
   },
   {
     "LastModifiedDateTime": "June 09, 2025",
@@ -1203,8 +1133,7 @@
     "Services": "Exchange Online, Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "495261",
     "Summary": "Microsoft Outlook for iOS/Android introduces a new priority view highlighting important emails and those needing replies, available from late June 2025 to late December 2025. A Microsoft 365 Copilot license is required. Users can enable this feature in Outlook settings and customize the view. No admin action is needed.",
-    "Platforms": "Android, iOS",
-    "ExternalLink": null
+    "Platforms": "Android, iOS"
   },
   {
     "LastModifiedDateTime": "June 06, 2025",
@@ -1220,8 +1149,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft Planner will soon preview a web search capability in the Project Manager Agent (PMA), allowing real-time web information integration into tasks. This feature requires a Microsoft 365 Copilot license and will roll out from June to July 2025. No admin action is needed before rollout, but review configurations and notify users.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "June 05, 2025",
@@ -1237,8 +1165,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "485726",
     "Summary": "Microsoft 365 Copilot: People Skills is now generally available, enhancing user experience with AI-generated skill profiles, a customizable skills library, and skills-driven features across Microsoft 365 apps. The rollout requires no admin action and will be completed by mid-June 2025. Organizations can notify users and update documentation accordingly.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "June 04, 2025",
@@ -1254,8 +1181,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft Teams Rooms is introducing Facilitator, an AI-powered agent for taking notes in meetings, available in Public Preview. Admins can enable it using provided instructions. A Teams Rooms Pro license is required. The rollout for Windows starts in late March 2025 and for Android in late June 2025. Facilitator ensures security and compliance through Microsoft Purview.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "July 31, 2025",
@@ -1271,8 +1197,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "490051",
     "Summary": "The updated Teams Meeting Audio Overview, launching September 2025, uses AI to create audio summaries of meeting transcriptions, helping users quickly review key topics. Available on multiple platforms, it requires a Microsoft 365 Copilot license and no admin setup. Users enable it via the Meet app on desktop or mobile.",
-    "Platforms": "Android, Desktop, iOS, Mac",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Mac"
   },
   {
     "LastModifiedDateTime": "July 30, 2025",
@@ -1288,8 +1213,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "483954",
     "Summary": "Microsoft Word's Copilot now offers a one-click \"Fix grammar and spellings\" feature to correct all errors simultaneously, with review and undo options. Rolling out worldwide from mid-May to mid-August 2025, it requires a Copilot license. Organizations should update training and manage access accordingly.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "July 30, 2025",
@@ -1305,8 +1229,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "497417",
     "Summary": "Microsoft 365 Admin Center will add budget controls for Copilot Chat pay-as-you-go billing, allowing global and billing admins to set budget limits, receive customizable alerts, and view six months of spending data. Rollout starts mid-July 2025, with no automatic service shutdown at budget limits.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "July 29, 2025",
@@ -1322,8 +1245,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Copilot Notebooks will soon be available on Microsoft 365 mobile apps for iOS and Android, allowing users to access and interact with existing notebooks, create new Copilot chats, and open pages. Rollout starts mid-June 2025, enhancing mobile productivity for Copilot license holders.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "July 25, 2025",
@@ -1339,8 +1261,7 @@
     "Services": "Planner, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "The Project Manager agent in Planner will preview a feature using encrypted SharePoint files for improved task creation and execution. New Plans enable this by default; existing Plans require manual activation. Tasks from encrypted files become unencrypted for export. Rollout starts late July 2025, completing late August 2025.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "July 25, 2025",
@@ -1356,8 +1277,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Scoped knowledge support for Declarative Agents will roll out worldwide in mid-August 2025, allowing organizations to limit agent access to specific data containers across connectors like Azure DevOps, GitHub, Jira, and ServiceNow. This improves response relevance, data control, and compliance with organizational policies.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "July 23, 2025",
@@ -1373,8 +1293,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "478649",
     "Summary": "Microsoft 365 Copilot will soon offer AI-generated audio overviews for Word documents, PDF files, and Teams meeting recordings stored in OneDrive. This feature will be available on both web and mobile platforms, requiring a Copilot license. Rollout begins in May 2025 for web and July 2025 for mobile.",
-    "Platforms": "Mobile, Web",
-    "ExternalLink": null
+    "Platforms": "Mobile, Web"
   },
   {
     "LastModifiedDateTime": "July 22, 2025",
@@ -1390,8 +1309,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "479753",
     "Summary": "Microsoft Viva Pulse will introduce a new delegation feature in mid-August 2025, allowing users to assign delegates to manage Pulse surveys on their behalf. This feature supports roles like executive assistants and chiefs of staff. Delegation is enabled by default and can be managed at various levels. No admin action is required before the rollout.",
-    "Platforms": "Desktop, Mac",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac"
   },
   {
     "LastModifiedDateTime": "July 22, 2025",
@@ -1407,8 +1325,7 @@
     "Services": "SharePoint Online, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "482601",
     "Summary": "Access recently used SharePoint agents directly within the Microsoft 365 Copilot app, starting mid-September 2025. This feature aims to reduce context switching and improve productivity. Admins can manage agents by deleting the corresponding .agent files. Update training materials and review SharePoint agent management practices.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "July 18, 2025",
@@ -1424,8 +1341,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "494154",
     "Summary": "Copilot now allows scheduling meetings directly from email threads by analyzing the conversation and creating invitations with pre-filled details. This feature will roll out globally from July to August 2025, requiring no admin action but notifying users and updating documentation is recommended.",
-    "Platforms": "Android, iOS",
-    "ExternalLink": null
+    "Platforms": "Android, iOS"
   },
   {
     "LastModifiedDateTime": "July 18, 2025",
@@ -1441,8 +1357,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "490213",
     "Summary": "Account switching for the Copilot chat tab on iOS and Android will be available starting early September 2025. Users can switch accounts by swiping left to open the navigation. This update requires no admin action but notifying users and updating documentation is recommended.",
-    "Platforms": "Android, iOS",
-    "ExternalLink": null
+    "Platforms": "Android, iOS"
   },
   {
     "LastModifiedDateTime": "July 17, 2025",
@@ -1458,8 +1373,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Starting early August, Microsoft 365 Copilot will switch to capacity-based access for some capabilities. Standard access will be available based on service capacity, with priority access for Copilot license holders. No admin action is required, and users will be notified if capacity is unavailable. The rollout will complete by the end of August.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "July 17, 2025",
@@ -1475,8 +1389,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Updated July 17, 2025: Frontier features in Microsoft 365 allow admins to configure early access to experimental AI features for end users. Mobile apps now show Frontier features to all users on Android Beta and iOS TestFlight. Admins should prepare by identifying users, configuring access via Microsoft Entra ID groups, and ensuring users have active Copilot licenses.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "July 17, 2025",
@@ -1492,8 +1405,7 @@
     "Services": "Planner, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Project Manager agent (PMA) is now available in all shared premium plans to enhance planning and execution. Key updates include broader availability, new chat entry point, and improved admin controls. Rollout begins in August 2025. A Microsoft 365 Copilot license is required for full access. No compliance considerations identified.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "July 16, 2025",
@@ -1509,8 +1421,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "489837",
     "Summary": "Updated timeline for new AI data access roles in Microsoft Purview Data Security Posture Management. Public preview starts mid-June 2025, general availability by late September 2025. A Purview license is required. Review and update user permissions accordingly. No admin action needed before rollout. More details [here](https://learn.microsoft.com/purview/ai-microsoft-purview-permissions).",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "July 16, 2025",
@@ -1526,8 +1437,7 @@
     "Services": "Microsoft Teams, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "478611",
     "Summary": "Microsoft Teams will soon feature a Facilitator agent that takes real-time notes during meetings, allowing for seamless co-authoring and collaboration. This feature, requiring a Microsoft 365 Copilot license, will be available globally from mid to late September 2025. Admins can control its availability, and it includes security and compliance measures through Microsoft Purview.",
-    "Platforms": "Android, Desktop, iOS, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
   },
   {
     "LastModifiedDateTime": "July 15, 2025",
@@ -1543,8 +1453,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "487428",
     "Summary": "Admins can upload custom dictionaries for Microsoft Teams meeting transcripts to improve recognition of tenant-specific terminology. This feature requires a Microsoft 365 Copilot license and will be available for Teams on various platforms. Rollout starts in June 2025 for targeted release and mid-July 2025 for general availability.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "July 11, 2025",
@@ -1560,8 +1469,7 @@
     "Services": "SharePoint Online, Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "412621",
     "Summary": "Microsoft SharePoint agents will integrate Viva Connections cards into conversations, allowing users to interact with them directly. Public preview starts in late March 2025, with general availability in late September 2025. No admin action is required, but notifying users and updating documentation is recommended.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "July 10, 2025",
@@ -1577,8 +1485,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "491020",
     "Summary": "Microsoft is enhancing Copilot in classic Outlook for Windows to summarize email attachments (PDF, Word, PowerPoint) directly in the reading pane. This feature, available by late August 2025, requires no admin action and is on by default. It affects users licensed for Microsoft 365 Copilot.",
-    "Platforms": "Desktop",
-    "ExternalLink": null
+    "Platforms": "Desktop"
   },
   {
     "LastModifiedDateTime": "July 08, 2025",
@@ -1594,8 +1501,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "493731,493732,493733",
     "Summary": "Users can reference Excel files when creating presentations with Microsoft 365 Copilot in PowerPoint. This feature requires a Microsoft 365 Copilot license and applies to PowerPoint on Windows, Mac, and the web. The rollout starts mid-July 2025 and completes by late August 2025. No admin action is required.",
-    "Platforms": "Mac, Web, Desktop",
-    "ExternalLink": null
+    "Platforms": "Mac, Web, Desktop"
   },
   {
     "LastModifiedDateTime": "July 03, 2025",
@@ -1611,8 +1517,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "490778",
     "Summary": "Microsoft 365 Copilot Search, an AI-powered search experience, will be generally available mid-July 2025 for eligible users. It integrates with Microsoft 365 Copilot app across platforms, leveraging Microsoft Graph and connectors for personalized, context-aware answers. Review documentation and ensure proper licensing. Compliance considerations include data processing and AI capabilities.",
-    "Platforms": "Android, Desktop, iOS, Web",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Web"
   },
   {
     "LastModifiedDateTime": "August 29, 2025",
@@ -1628,8 +1533,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "496138",
     "Summary": "Microsoft PowerPoint for Mac will roll out a Copilot feature in early September 2025, enabling users to generate new topic ideas and slides that match existing presentations. This AI-powered tool enhances productivity and requires a Microsoft 365 license. No admin action is needed before rollout.",
-    "Platforms": "Mac",
-    "ExternalLink": null
+    "Platforms": "Mac"
   },
   {
     "LastModifiedDateTime": "August 29, 2025",
@@ -1645,8 +1549,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "488297",
     "Summary": "AI file actions, currently in OneDrive, will expand to SharePoint document libraries by mid-October 2025, enabling users with Copilot licenses to summarize, compare, generate FAQs, and create audio overviews. The feature is on by default, requires no admin setup, and includes compliance and access controls.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 29, 2025",
@@ -1662,8 +1565,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "496137",
     "Summary": "Microsoft PowerPoint for Windows will roll out a Copilot feature in early September 2025 that generates new topics and slides matching existing presentation styles. Users can prompt Copilot with text or files. A Microsoft 365 license is required, and no admin action is needed before rollout.",
-    "Platforms": "Desktop",
-    "ExternalLink": null
+    "Platforms": "Desktop"
   },
   {
     "LastModifiedDateTime": "August 29, 2025",
@@ -1679,8 +1581,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Starting September 2025, Microsoft 365 Copilot will use AI to remember key highlights from users' chats, emails, and meetings to provide personalized responses across apps. Memories are private, stored securely in users' mailboxes, and managed via admin controls with options for users to view or delete them by removing source data.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 29, 2025",
@@ -1696,8 +1597,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "496136",
     "Summary": "Microsoft PowerPoint for Windows will roll out a Copilot feature in early September 2025 that generates and inserts topic-specific slides matching existing presentation styles. It requires a Microsoft 365 license, is enabled by default, and introduces new generative AI capabilities to streamline content creation.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 28, 2025",
@@ -1713,8 +1613,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "497536,497540,497541",
     "Summary": "Microsoft 365 Copilot in PowerPoint will allow users to reference text-based PDFs stored in OneDrive or SharePoint to create slides, rolling out from mid-October to late November 2025. This feature requires the Copilot add-on, supports Windows, Mac, and Web, and needs no admin action.",
-    "Platforms": "Web, Desktop, Mac",
-    "ExternalLink": null
+    "Platforms": "Web, Desktop, Mac"
   },
   {
     "LastModifiedDateTime": "August 28, 2025",
@@ -1730,8 +1629,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "494687",
     "Summary": "The Copilot Dashboard now shows updated meeting metrics combining summarized and recapped activities, replacing previous Copilot Assisted Hour calculations. These changes, rolling out from late September to November 2025, enhance visibility in both the dashboard and M365 Copilot Impact report, including new query options for Intelligent Recap metrics.",
-    "Platforms": "Desktop, TeamsAndSurfaceDevices, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, TeamsAndSurfaceDevices, Web"
   },
   {
     "LastModifiedDateTime": "August 28, 2025",
@@ -1747,8 +1645,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "494809",
     "Summary": "Microsoft is introducing a new request and approval experience for Microsoft-built agents in the Microsoft 365 admin center, allowing centralized management of access requests from late September to mid-October 2025. Admins can approve or reject requests per user, with no setup required.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1764,8 +1661,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Realtime voice chat is now available in Microsoft 365 Copilot, enabling hands-free interaction starting early September 2025 worldwide. Users can initiate voice conversations via an icon in the input box. The feature is on by default, requires no admin setup, and enhances productivity and accessibility.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1781,8 +1677,7 @@
     "Services": "Microsoft Teams, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "483355",
     "Summary": "Starting mid-October 2025, users can share Microsoft Teams apps or agents from their profile or the side panel without needing a Copilot license. The rollout completes by late November 2025, requires no admin action, and will be enabled by default across Windows, Mac, and web Teams clients.",
-    "Platforms": "Desktop, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac, Web"
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1798,8 +1693,7 @@
     "Services": "Microsoft 365 suite, Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot app for iOS will transition to AI-powered previewers for Word, Excel, and PowerPoint files, requiring standalone apps for editing. Rollout begins with TestFlight users in August-September 2025 and general availability by October 13, 2025. OneDrive app is recommended for advanced file management.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1815,8 +1709,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "482410",
     "Summary": "Microsoft 365 Copilot agents will be accessible from the Edge sidebar starting late September 2025. Users must pre-add agents to access them there but cannot create or add new ones via the sidebar. The feature is automatic, default-enabled, and enhances multitasking without screen switching.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1832,8 +1725,7 @@
     "Services": "SharePoint Online, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "481512",
     "Summary": "The new SharePoint Agent Link Web Part, available under the AI category, lets site owners embed clickable links to AI agents that open in a sidecar for contextual help. It improves discoverability, requires appropriate licenses, and is configurable by editors. It is not supported on mobile or email.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1849,8 +1741,7 @@
     "Services": "SharePoint Online, Microsoft Teams, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "481824",
     "Summary": "SharePoint agents are now available in the Microsoft Teams app store, allowing personalized intelligent interaction with SharePoint content within Teams. Rolling out worldwide in late August 2025, the feature is on by default, cannot be centrally managed, and enhances content discovery and collaboration.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1866,8 +1757,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Scoped knowledge support in Microsoft 365 Copilot's declarative agents for VIP connectors (Azure DevOps, Jira, Confluence) enables precise, personalized query responses by limiting accessible information. Available to Microsoft 365 E5 tenants, it rolls out globally from late August to early September 2025. Configuration involves selecting connectors and scoping attributes.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 27, 2025",
@@ -1883,8 +1773,7 @@
     "Services": "SharePoint Online, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "SharePoint is introducing an AI-powered report for admins to compare site content and policies, showing similarity percentages and configuration differences. Available from April 2025 (preview) and August 2025 (general), it aids governance without changing site settings. Requires SharePoint Advanced Management or Microsoft Copilot license.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 26, 2025",
@@ -1900,8 +1789,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "497545",
     "Summary": "A new Copilot Search usage report will be available in the Microsoft 365 admin center by early September 2025, showing user activity and search metrics. It is enabled by default, requires no setup, and helps organizations monitor Copilot Search adoption and usage trends.",
-    "Platforms": "Android, Desktop, iOS, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
   },
   {
     "LastModifiedDateTime": "August 26, 2025",
@@ -1917,8 +1805,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft Teams will introduce a user-controlled toggle to turn off Copilot during meetings, disabling recording, transcription, and Facilitator features while off. Rollout starts mid-September 2025. No admin action is needed; users can manage Copilot via desktop, web, or mobile interfaces.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 22, 2025",
@@ -1934,8 +1821,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Outlook and Teams are updating event scheduling with a modernized interface and new Copilot features to improve meeting setup. Meeting Insights will be replaced by Meeting Prepare for Copilot users. Rollout begins mid-September 2025, enabled by default, requiring user communication and training.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 22, 2025",
@@ -1951,8 +1837,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "494831,494832,494833",
     "Summary": "Microsoft PowerPoint will introduce a Copilot feature allowing users to rephrase text using natural language prompts, rolling out globally from July to October 2025. It requires a Microsoft 365 Copilot license, is enabled by default, and needs no admin action. Users should be notified accordingly.",
-    "Platforms": "Desktop, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac, Web"
   },
   {
     "LastModifiedDateTime": "August 22, 2025",
@@ -1968,8 +1853,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Starting September 8, 2025, Microsoft 365 Copilot licensed users will get the Researcher agent in Word, combining OpenAI’s model with Copilot for advanced research across work and web data. It supports 37 languages, requires no admin action, and changes how customer data is accessed and processed.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 20, 2025",
@@ -1985,8 +1869,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "July Copilot readiness insights are now available in the Microsoft 365 Admin Center's Copilot Health page, providing admins with visibility into deployment issues. Accessible to specific admin roles, this feature helps monitor and resolve blockers without impacting end users. No compliance concerns identified.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 19, 2025",
@@ -2002,8 +1885,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "429646",
     "Summary": "Microsoft 365 Copilot will allow users to search and select Teams Chats in Context IQ to scope BizChat prompts. The rollout starts mid-September 2025, completing by late September, with no admin action needed. Users can ground prompts in accessible Teams Chats, enhancing BizChat functionality.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 19, 2025",
@@ -2019,8 +1901,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Admins can pin up to 3 Copilot agents per user or group in Microsoft 365, improving agent discoverability and engagement. Microsoft can pin 2 separate agents. Users cannot unpin these agents. Rollout starts August 2025. Admins should plan and monitor pinned agents to optimize usage.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 18, 2025",
@@ -2036,8 +1917,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "486698,494830,495549",
     "Summary": "Copilot Chat usage in Word, Excel, PowerPoint, and OneNote is now included in Microsoft 365 admin center and Viva Insights reports, enhancing Copilot Analytics. Updates will reflect user activity across these apps, improving adoption tracking and AI adoption scores with future enhancements planned.",
-    "Platforms": "Web, Desktop",
-    "ExternalLink": null
+    "Platforms": "Web, Desktop"
   },
   {
     "LastModifiedDateTime": "August 18, 2025",
@@ -2053,8 +1933,7 @@
     "Services": "SharePoint Online, Microsoft Teams, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "481822",
     "Summary": "SharePoint agents in Microsoft Teams Channels enable users to access and summarize SharePoint content via @mentions without leaving Teams. Rolling out globally from late August to mid-September 2025, this feature is on by default, requires no admin changes, and supports existing governance and compliance controls.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 15, 2025",
@@ -2070,8 +1949,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "495549",
     "Summary": "New Microsoft 365 admin center metrics track Copilot Chat usage intensity and app-specific engagement for users without Copilot licenses across Word, Excel, PowerPoint, and OneNote. Available worldwide from mid-August 2025, these daily-updated metrics enhance adoption reporting and impact existing custom reports.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 15, 2025",
@@ -2087,8 +1965,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot's Create module now offers generative AI image and visual content creation to all Copilot Chat users without a license, with standard access and existing admin controls applying. Video, survey, and brand kit features remain restricted. Rollout began mid-August for desktop, with mobile following in October 2025.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 14, 2025",
@@ -2104,8 +1981,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "498545",
     "Summary": "Microsoft 365 will introduce a unified chat history by August 2025, consolidating all conversations into a single list for improved continuity and ease of use. This default feature requires no admin action but may need user support and documentation updates. No compliance issues identified.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 14, 2025",
@@ -2121,8 +1997,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "497910",
     "Summary": "Microsoft Copilot will add a chat history filtering feature starting late August 2025, enabling users to quickly find relevant past conversations. The feature is on by default, requires no admin setup, and aims to improve navigation and context recall in Copilot chats.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 14, 2025",
@@ -2138,8 +2013,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "478649,485747,487423,487854,490051",
     "Summary": "Microsoft 365 Copilot will generate podcast-style audio overviews of documents, meetings, and files, available in OneDrive, Teams, Word, and Copilot Notebooks starting May 2025 (English only). Users can customize speaker style and length. Features require a Copilot license and rollout varies by app and platform.",
-    "Platforms": "Mobile, Web, Desktop, Android, iOS, Mac",
-    "ExternalLink": null
+    "Platforms": "Mobile, Web, Desktop, Android, iOS, Mac"
   },
   {
     "LastModifiedDateTime": "August 13, 2025",
@@ -2155,8 +2029,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "490052",
     "Summary": "Microsoft decided not to proceed with the planned update for Copilot in Teams that would include shared-screen content in intelligent meeting recaps. The feature, requiring a Microsoft 365 Copilot license, will not be released now, and no admin action is needed.",
-    "Platforms": "Android, Desktop, iOS, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
   },
   {
     "LastModifiedDateTime": "August 12, 2025",
@@ -2172,8 +2045,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "481519",
     "Summary": "Admins will gain lifecycle controls to identify, review, delete, or block ownerless Copilot agents created by departed users, improving security and governance. The feature rolls out globally from late August to mid-September 2025, with owner assignment for agents coming in October. No prior configuration is needed.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "August 12, 2025",
@@ -2189,8 +2061,7 @@
     "Services": "Exchange Online, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "498320",
     "Summary": "Microsoft Outlook will roll out a Copilot chat feature to summarize email threads with one click, available to users with Copilot chat pinned, even without a Copilot license. Deployment starts late August 2025, is on by default, and admins can manage access via policies and Entra ID groups.",
-    "Platforms": "Android, Desktop, iOS, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
   },
   {
     "LastModifiedDateTime": "August 12, 2025",
@@ -2206,8 +2077,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "413110",
     "Summary": "Microsoft 365 Copilot will soon allow users to select SharePoint sites via Context IQ when writing prompts. The feature requires a Copilot license and will roll out globally from late July to mid-August 2025, with no admin action needed. Users see only accessible sites in their prompts.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 12, 2025",
@@ -2223,8 +2093,7 @@
     "Services": "Microsoft Viva, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "499421",
     "Summary": "The Copilot Studio agents report will enhance insights with weekly data aggregation and active user counts, enabling faster performance monitoring. Public preview starts late August 2025; general availability by mid-October 2025. Existing monthly reports remain unchanged; no immediate admin action required. Training updates recommended.",
-    "Platforms": "Desktop, Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Mac, Web"
   },
   {
     "LastModifiedDateTime": "August 12, 2025",
@@ -2240,8 +2109,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft Teams will replace \"Highlights from this conversation\" with \"Summarize Thread\" in post/reply channels starting mid-August 2025. This new feature, enabled by default, summarizes conversations over 1000 characters for a consistent experience across channels, requiring no admin setup. Inform users and update training accordingly.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 11, 2025",
@@ -2257,8 +2125,7 @@
     "Services": "Microsoft Copilot (Microsoft 365), Microsoft Purview",
     "RoadmapIds": "489221",
     "Summary": "Microsoft Purview Data Loss Prevention will soon restrict Microsoft 365 Copilot from processing emails labeled with sensitivity starting January 1, 2025. The feature rolls out June to September 2025, requires no Copilot license, and allows admins to create or extend DLP policies via the Purview portal automatically.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 08, 2025",
@@ -2274,8 +2141,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "481282",
     "Summary": "Microsoft 365 Copilot in Viva Engage evolves into a personalized AI companion, offering features like Community Catch-Up, Information Discovery, and Recall. Rollout starts mid-August 2025, requiring Copilot licenses. Organizations should prepare by reviewing licenses, communicating changes, and updating training. Compliance impacts include new data storage and AI interactions.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 08, 2025",
@@ -2291,8 +2157,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft Teams will retire several Chat Copilot smart actions (\"Summarize what I missed,\" \"What are the open items?\" and \"What decisions were made?\") and the Add to Group Chat Coachmark between late August and early September 2025. No admin action is needed; users will lose access to these features.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 08, 2025",
@@ -2308,8 +2173,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "481829",
     "Summary": "Agent management in Microsoft 365 is moving from the Integrated apps page to a new Agents & connectors page under Copilot in the admin center, rolling out July–August 2025. This change improves agent management without affecting existing agents or store apps. Admins should update documentation accordingly.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "August 07, 2025",
@@ -2325,8 +2189,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "GPT-5 is now available in Microsoft 365 Copilot and Copilot Studio, offering dynamic model selection for faster or deeper responses. Users with a Copilot license get priority access via a toggle in Copilot Chat. No admin action is needed, but informing users and updating documentation is recommended.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 06, 2025",
@@ -2342,8 +2205,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "489222,491473",
     "Summary": "Microsoft Edge for Business will add two Microsoft 365 Copilot entry points: a context menu for page summaries and Find on Page integration, rolling out by August 2025. Features are on by default, respect DLP policies, and enable new AI-driven browser interactions without requiring admin action before rollout.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 06, 2025",
@@ -2359,8 +2221,7 @@
     "Services": "Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot in Word introduces an Activity tab showing recent comments and edits, with filters by time. Rolling out globally from late July to August 2025, it enhances collaboration by summarizing document changes. The feature is on by default, requiring no user action.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 06, 2025",
@@ -2376,8 +2237,7 @@
     "Services": "Microsoft Copilot (Microsoft 365), Microsoft Purview",
     "RoadmapIds": "496151",
     "Summary": "Microsoft Purview Data Lifecycle Management will introduce a secure workflow allowing admins to bypass retention/legal holds to delete OneDrive and SharePoint content early. This requires specific admin roles, includes audit features, and is planned for public preview in September 2025 and general availability in November 2025.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 06, 2025",
@@ -2393,8 +2253,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot Chat web access is being simplified by consolidating entry points from copilot.cloud.microsoft to m365.cloud.microsoft/chat, reducing user confusion. The change starts mid-September with automatic redirection, requires no admin action, and does not affect data processing or AI capabilities.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 05, 2025",
@@ -2410,8 +2269,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot mobile apps for iOS and Android will gain an Agent Store by mid-August 2025, allowing users to acquire agents directly on mobile. Installed agents sync across web and desktop. Admin policies control agent visibility. No admin action is needed before rollout.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 05, 2025",
@@ -2427,8 +2285,7 @@
     "Services": "Microsoft 365 suite, Microsoft Intune, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "A new setting in the Microsoft 365 admin center allows admins to pin the Microsoft 365 Copilot app to the Windows taskbar for easier access. This setting, off by default, applies to Intune-managed Windows 10 and 11 devices. It will roll out starting at the end of July.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 05, 2025",
@@ -2444,8 +2301,7 @@
     "Services": "Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "The Rewrite Suggestions feature in Microsoft Word will be deprecated after October 1, 2025, and replaced by the more advanced Copilot experience, offering context-aware rewriting, prompt-based editing, and iterative refinement. Users are encouraged to transition to Copilot's Auto-Rewrite for enhanced writing assistance.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 05, 2025",
@@ -2461,8 +2317,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "492268",
     "Summary": "Microsoft 365 Copilot Chat now supports additional file types like CAD, ZIP, and MP4 for search grounding, enhancing response relevance. The rollout begins early August 2025, with no user interface changes. Users must have eligible Microsoft 365 Copilot licenses; the feature is enabled by default.",
-    "Platforms": "Desktop, Web",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web"
   },
   {
     "LastModifiedDateTime": "August 04, 2025",
@@ -2478,8 +2333,7 @@
     "Services": "Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Starting early August, Microsoft 365 Copilot mobile app will remove bottom tab navigation, making Copilot Chat the default for users with access and pinning. Other features move to the hamburger menu. Chat history will be expanded by default. iOS updates begin in August, Android follows. Admins can manage pinning settings.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 04, 2025",
@@ -2495,8 +2349,7 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "490738",
     "Summary": "A new Message consumption usage report for Microsoft 365 Copilot Chat will be introduced in the admin center to help manage metered consumption costs. It includes detailed metrics and alerts for high usage. The preview starts in May 2025, with general availability in September 2025. No admin action is required for the rollout.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "August 04, 2025",
@@ -2512,8 +2365,7 @@
     "Services": "Exchange Online, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "407380",
     "Summary": "Outlook's Draft with Copilot feature will be available in late June 2025 for Public Preview and late July 2025 for General Availability. This feature allows users to improve email drafts by highlighting sections and using Copilot to iterate on the text. No preparation is needed.",
-    "Platforms": "Desktop",
-    "ExternalLink": null
+    "Platforms": "Desktop"
   },
   {
     "LastModifiedDateTime": "August 04, 2025",
@@ -2529,8 +2381,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "413109",
     "Summary": "Microsoft 365 Copilot will soon allow users to select SharePoint and OneDrive folders when writing prompts using the \"Attach cloud files\" icon. This feature will roll out from late July to late August 2025. No admin action is required, but users should be informed. A Copilot license is needed.",
-    "Platforms": "Web",
-    "ExternalLink": null
+    "Platforms": "Web"
   },
   {
     "LastModifiedDateTime": "August 01, 2025",
@@ -2546,8 +2397,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "492979,492980,492981",
     "Summary": "Microsoft Copilot in PowerPoint will allow users to reference Microsoft Teams meetings when creating presentations, requiring a Microsoft 365 Copilot license. The feature will roll out worldwide from mid to late November 2025 for PowerPoint on Windows, Mac, and web, with no admin action needed.",
-    "Platforms": "Desktop, Web, Mac",
-    "ExternalLink": null
+    "Platforms": "Desktop, Web, Mac"
   },
   {
     "LastModifiedDateTime": "April 25, 2025",
@@ -2563,8 +2413,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": "484843",
     "Summary": "Microsoft Designer will be integrated into Microsoft 365 Copilot as \"Design suggestions\" in PowerPoint. This update will be available on Windows and Mac desktops starting May 21, 2025, and on the web from May 13, 2025. Non-Copilot users will retain access to standard Designer layouts. No admin action is required.",
-    "Platforms": "Mac, Web",
-    "ExternalLink": null
+    "Platforms": "Mac, Web"
   },
   {
     "LastModifiedDateTime": "April 23, 2025",
@@ -2580,8 +2429,7 @@
     "Services": "Microsoft 365 apps, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Microsoft 365 Copilot in Word now allows referencing entire folders, supports larger documents up to 1.5 million words or 3000 pages, and can reference up to 20 items. These features will be generally available by early December 2025. Folder referencing is available now for Word for the web and coming to other platforms in July 2025.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "April 23, 2025",
@@ -2597,8 +2445,7 @@
     "Services": "Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "Turn voice notes into documents with Copilot in Word for iOS. Open the Word app, select New (+), and Use Copilot. Choose a language and format, record your voice note, and Copilot generates a document. Available for users with a Copilot license running Version 2.96 (Build 25041112) or later.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   },
   {
     "LastModifiedDateTime": "April 03, 2025",
@@ -2614,7 +2461,6 @@
     "Services": "Microsoft 365 suite, Microsoft Copilot (Microsoft 365)",
     "RoadmapIds": null,
     "Summary": "New Microsoft Graph Connectors for Microsoft 365 Copilot and Copilot Chat are now available, enhancing access to business content across various platforms like Guru, GitLab, Asana, 15Five, Miro, Trello, Zendesk, SmartSheet, and Seismic. No admin action is required for the rollout.",
-    "Platforms": null,
-    "ExternalLink": null
+    "Platforms": null
   }
 ]

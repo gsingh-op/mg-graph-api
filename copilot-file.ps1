@@ -26,12 +26,9 @@ Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot')
                         #    details,
                            @{Name='RoadmapIds'; Expression={($_.details | Where-Object {$_.Name -eq "RoadmapIds"}).Value}},
                            @{Name='Summary'; Expression={($_.details | Where-Object {$_.Name -eq "Summary"}).Value}},
-                           @{Name='Platforms'; Expression={($_.details | Where-Object {$_.Name -eq "Platforms"}).Value}},
-                           @{Name='ExternalLink'; Expression={($_.details | Where-Object {$_.Name -eq "ExternalLink"}).Value}} |
-
+                           @{Name='Platforms'; Expression={($_.details | Where-Object {$_.Name -eq "Platforms"}).Value}} |
                         #    @{Name='link'; Expression={("https://mc.merill.net/message/{0}" -f $_.id)}}
-                        #    body 
-                            
+                        #    body                
     Sort-Object lastModifiedDateTime -Descending | 
     ConvertTo-Json |
     Out-File -FilePath "copilot-announcements-all.json"
