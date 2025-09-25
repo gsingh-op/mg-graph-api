@@ -41,6 +41,12 @@ Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot')
 #     ConvertTo-Json |
 #     Out-File -FilePath "copilot-announcements-since-june.json"
 
+# filter out where isMajorChange is true
+# Get-Content "copilot-announcements-all.json" | 
+#     ConvertFrom-Json |
+#     Where-Object { $_.IsMajorChange -eq $true } |
+#     ConvertTo-Json |
+#     Out-File -FilePath "copilot-announcements-major-changes.json"
 
 # 1b. Filter by specific RoadmapId
 # $targetRoadmapId = "478611"  # Change this to the roadmap ID you want to filter by
