@@ -26,7 +26,8 @@ Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot')
                         #    details,
                            @{Name='RoadmapIds'; Expression={($_.details | Where-Object {$_.Name -eq "RoadmapIds"}).Value}},
                            @{Name='Summary'; Expression={($_.details | Where-Object {$_.Name -eq "Summary"}).Value}},
-                           @{Name='Platforms'; Expression={($_.details | Where-Object {$_.Name -eq "Platforms"}).Value}} |
+                           @{Name='Platforms'; Expression={($_.details | Where-Object {$_.Name -eq "Platforms"}).Value}},
+                           @{Name='MessageCenterLink'; Expression={("https://admin.microsoft.com/#/MessageCenter/:/messages/{0}" -f $_.id)}} |
                         #    @{Name='link'; Expression={("https://mc.merill.net/message/{0}" -f $_.id)}}
                         #    body                
     Sort-Object LastUpdated -Descending | 
