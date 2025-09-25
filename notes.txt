@@ -1,0 +1,14 @@
+severity
+The severity of the service message. Possible values are: normal, high, critical, unknownFutureValue.
+
+
+
+
+category
+--------
+planForChange
+preventOrFixIssue
+stayInformed
+
+- body	
+The content type and content of the service message body. The supported value for the contentType property is html.

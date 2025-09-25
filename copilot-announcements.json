@@ -1,0 +1,50 @@
+[
+  {
+    "LastModifiedDateTime": "September 23, 2025",
+    "StartDateTime": "May 27, 2025",
+    "EndDateTime": "December 08, 2025",
+    "Title": "(Updated) Intelligent Recap Access for Multi-tenant Organization",
+    "Id": "MC1084034",
+    "Category": "planForChange",
+    "Severity": "normal",
+    "IsMajorChange": true,
+    "Tags": "Updated message, New feature, User impact",
+    "ActionRequiredByDateTime": null,
+    "Services": "Microsoft Copilot (Microsoft 365)",
+    "RoadmapIds": "488298",
+    "Summary": "Copilot users in multi-tenant business-to-business organizations will soon access intelligent meeting recaps from the resource tenant after meetings. Rollout starts early November 2025, completing by late November. No action is needed from admins or users for this update.",
+    "Platforms": "Desktop, Mac"
+  },
+  {
+    "LastModifiedDateTime": "July 16, 2025",
+    "StartDateTime": "February 26, 2025",
+    "EndDateTime": "November 10, 2025",
+    "Title": "(Updated) Microsoft Teams: Facilitator agent real-time notes in meetings",
+    "Id": "MC1017117",
+    "Category": "planForChange",
+    "Severity": "normal",
+    "IsMajorChange": true,
+    "Tags": "Updated message, New feature, User impact, Admin impact",
+    "ActionRequiredByDateTime": null,
+    "Services": "Microsoft Teams, Microsoft Copilot (Microsoft 365)",
+    "RoadmapIds": "478611",
+    "Summary": "Microsoft Teams will soon feature a Facilitator agent that takes real-time notes during meetings, allowing for seamless co-authoring and collaboration. This feature, requiring a Microsoft 365 Copilot license, will be available globally from mid to late September 2025. Admins can control its availability, and it includes security and compliance measures through Microsoft Purview.",
+    "Platforms": "Android, Desktop, iOS, Mac, Web"
+  },
+  {
+    "LastModifiedDateTime": "August 14, 2025",
+    "StartDateTime": "April 24, 2025",
+    "EndDateTime": "November 10, 2025",
+    "Title": "(Updated) Microsoft 365 Copilot can generate an audio overview of documents, meetings, and files",
+    "Id": "MC1061100",
+    "Category": "planForChange",
+    "Severity": "normal",
+    "IsMajorChange": true,
+    "Tags": "Updated message, New feature, User impact, Admin impact",
+    "ActionRequiredByDateTime": null,
+    "Services": "Microsoft Copilot (Microsoft 365)",
+    "RoadmapIds": "478649,485747,487423,487854,490051",
+    "Summary": "Microsoft 365 Copilot will generate podcast-style audio overviews of documents, meetings, and files, available in OneDrive, Teams, Word, and Copilot Notebooks starting May 2025 (English only). Users can customize speaker style and length. Features require a Copilot license and rollout varies by app and platform.",
+    "Platforms": "Mobile, Web, Desktop, Android, iOS, Mac"
+  }
+]
