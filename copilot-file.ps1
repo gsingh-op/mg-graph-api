@@ -9,9 +9,9 @@ Import-Module Microsoft.Graph.Devices.ServiceAnnouncement
 # 1. Get the Top 3 service announcement message for the Copilot service
 
 Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot'))" -All | 
-    Select-Object -Property @{Name='LastModifiedDateTime'; Expression={if ($_.lastModifiedDateTime) { [DateTime]::Parse($_.lastModifiedDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
-                            @{Name='StartDateTime'; Expression={if ($_.startDateTime) { [DateTime]::Parse($_.startDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
-                            @{Name='EndDateTime'; Expression={if ($_.endDateTime) { [DateTime]::Parse($_.endDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
+    Select-Object -Property @{Name='LastUpdated'; Expression={if ($_.lastModifiedDateTime) { [DateTime]::Parse($_.lastModifiedDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
+                            @{Name='StartDate'; Expression={if ($_.startDateTime) { [DateTime]::Parse($_.startDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
+                            @{Name='EndDate'; Expression={if ($_.endDateTime) { [DateTime]::Parse($_.endDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
                             
                            title,
                            id,
@@ -29,7 +29,7 @@ Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot')
                            @{Name='Platforms'; Expression={($_.details | Where-Object {$_.Name -eq "Platforms"}).Value}} |
                         #    @{Name='link'; Expression={("https://mc.merill.net/message/{0}" -f $_.id)}}
                         #    body                
-    Sort-Object lastModifiedDateTime -Descending | 
+    Sort-Object LastUpdated -Descending | 
     ConvertTo-Json |
     Out-File -FilePath "copilot-announcements-all.json"
 
