@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft 365 Service Announcements</title>
+    <style>
+        /* Reset styles for email clients */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            color: #323130; 
+            background-color: #f3f2f1; 
+            margin: 0; 
+            padding: 20px;
+        }
+        
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            background: #ffffff; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+            overflow: hidden;
+        }
+        
+        .header { 
+            background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%); 
+            color: white; 
+            padding: 30px 20px; 
+            text-align: center;
+        }
+        
+        .header h1 { 
+            font-size: 28px; 
+            font-weight: 600; 
+            margin-bottom: 10px; 
+        }
+        
+        .header p { 
+            font-size: 16px; 
+            opacity: 0.9; 
+        }
+        
+        .table-container { 
+            padding: 0; 
+            overflow-x: auto;
+        }
+        
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            font-size: 14px;
+        }
+        
+        th { 
+            background: #f8f9fa; 
+            padding: 16px 12px; 
+            text-align: left; 
+            font-weight: 600; 
+            color: #323130; 
+            border-bottom: 2px solid #e1dfdd; 
+            position: sticky; 
+            top: 0;
+        }
+        
+        td { 
+            padding: 14px 12px; 
+            border-bottom: 1px solid #e1dfdd; 
+            vertical-align: top;
+        }
+        
+        tr:hover { 
+            background-color: #f8f9fa; 
+        }
+        
+        .id-column { 
+            width: 100px; 
+            font-family: 'Consolas', 'Monaco', monospace; 
+            font-weight: 600;
+        }
+        
+        .title-column { 
+            width: 250px; 
+            font-weight: 600;
+        }
+        
+        .summary-column { 
+            width: 300px; 
+            line-height: 1.5;
+        }
+        
+        .date-column { 
+            width: 120px; 
+            font-size: 13px;
+        }
+        
+        .timeline-column { 
+            width: 180px; 
+            font-size: 13px;
+        }
+        
+        .tags-column { 
+            width: 150px; 
+            font-size: 12px;
+        }
+        
+        .services-column { 
+            width: 200px; 
+            font-size: 13px;
+        }
+        
+        .roadmap-column { 
+            width: 120px; 
+            font-size: 12px; 
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+        
+        .major-change { 
+            display: inline-block; 
+            padding: 4px 8px; 
+            border-radius: 12px; 
+            font-size: 12px; 
+            font-weight: 600; 
+            text-transform: uppercase;
+        }
+        
+        .major-true { 
+            background-color: #d13438; 
+            color: white;
+        }
+        
+        .major-false { 
+            background-color: #107c10; 
+            color: white;
+        }
+        
+        .tags { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 4px;
+        }
+        
+        .tag { 
+            display: inline-block; 
+            padding: 3px 8px; 
+            background-color: #e1dfdd; 
+            border-radius: 10px; 
+            font-size: 11px; 
+            color: #323130;
+        }
+        
+        .roadmap-ids { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 4px;
+        }
+        
+        .roadmap-id { 
+            display: inline-block; 
+            padding: 2px 6px; 
+            background-color: #f8f9fa; 
+            border: 1px solid #e1dfdd; 
+            border-radius: 8px; 
+            font-size: 11px; 
+            color: #0078d4;
+        }
+        
+        .footer { 
+            background-color: #f8f9fa; 
+            padding: 20px; 
+            text-align: center; 
+            font-size: 12px; 
+            color: #605e5c; 
+            border-top: 1px solid #e1dfdd;
+        }
+        
+        .highlight { 
+            background-color: #fff3cd; 
+            border-left: 4px solid #ffc107;
+        }
+        
+        /* Mobile responsiveness */
+        @media screen and (max-width: 768px) {
+            .container { 
+                margin: 0; 
+                border-radius: 0;
+            }
+            
+            .header { 
+                padding: 20px 15px;
+            }
+            
+            .header h1 { 
+                font-size: 24px; 
+            }
+            
+            th, td { 
+                padding: 10px 8px; 
+                font-size: 13px;
+            }
+            
+            .summary-column { 
+                width: 200px;
+            }
+            
+            .services-column { 
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Microsoft 365 Service Announcements</h1>
+            <p>Recent updates with Admin and User Impact - Last 7 Days</p>
+        </div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="id-column">ID</th>
+                        <th class="title-column">Title</th>
+                        <th class="summary-column">Summary</th>
+                        <th class="date-column">Last Updated</th>
+                        <th class="timeline-column">Timeline</th>
+                        <th class="roadmap-column">Roadmap IDs</th>
+                        <th class="tags-column">Tags</th>
+                        <th class="services-column">Services</th>
+                        <th style="width: 100px;">Major Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data rows will be inserted here -->
+                    <tr>
+                        <td class="id-column">
+                            <a href="https://admin.microsoft.com/#/MessageCenter/:/messages/MC1155927" 
+                               style="color: #0078d4; text-decoration: none; font-weight: 600;">MC1155927</a>
+                        </td>
+                        <td class="title-column">
+                            (Updated) Facilitator agent to be generally available in Teams meetings
+                        </td>
+                        <td class="summary-column">
+                            The Facilitator agent is now generally available for Microsoft 365 Copilot-licensed users in Teams meetings, helping organize agendas, track progress, and capture highlights in real time. It integrates with Planner, Word, Loop, and Teams Rooms, and can be enabled by users before or during meetings without requiring recording or transcription.
+                        </td>
+                        <td class="date-column">September 25, 2025</td>
+                        <td class="timeline-column">September 19, 2025 - December 15, 2025</td>
+                        <td class="roadmap-column">
+                            <div class="roadmap-ids">
+                                <span class="roadmap-id">478611</span>
+                                <span class="roadmap-id">499891</span>
+                                <span class="roadmap-id">500701</span>
+                            </div>
+                        </td>
+                        <td class="tags-column">
+                            <div class="tags">
+                                <span class="tag">Updated message</span>
+                                <span class="tag">New feature</span>
+                                <span class="tag">User impact</span>
+                            </div>
+                        </td>
+                        <td class="services-column">Microsoft Copilot (Microsoft 365)</td>
+                        <td>
+                            <span class="major-change major-false">No</span>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="id-column">
+                            <a href="https://admin.microsoft.com/#/MessageCenter/:/messages/MC1143280" 
+                               style="color: #0078d4; text-decoration: none; font-weight: 600;">MC1143280</a>
+                        </td>
+                        <td class="title-column">
+                            (Updated) Microsoft Copilot dashboard (in Viva Insights): Adoption metrics for Microsoft 365 Copilot Chat
+                        </td>
+                        <td class="summary-column">
+                            Microsoft is introducing M365 Copilot Chat adoption metrics in the Viva Insights Copilot dashboard, providing detailed usage insights for unlicensed users. Public preview starts late October 2025; GA date is pending feedback. Admins can control or exclude users via VFAM or PowerShell. No action needed to enable.
+                        </td>
+                        <td class="date-column">September 25, 2025</td>
+                        <td class="timeline-column">August 27, 2025 - March 24, 2026</td>
+                        <td class="roadmap-column">
+                            <div class="roadmap-ids">
+                                <span class="roadmap-id">499899</span>
+                            </div>
+                        </td>
+                        <td class="tags-column">
+                            <div class="tags">
+                                <span class="tag">Updated message</span>
+                                <span class="tag">New feature</span>
+                                <span class="tag">User impact</span>
+                                <span class="tag">Admin impact</span>
+                            </div>
+                        </td>
+                        <td class="services-column">Microsoft Viva, Microsoft Copilot (Microsoft 365)</td>
+                        <td>
+                            <span class="major-change major-false">No</span>
+                        </td>
+                    </tr>
+                    
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <p>Report generated on <strong>September 25, 2025</strong> | Microsoft 365 Message Center</p>
+            <p style="margin-top: 10px; font-size: 11px; opacity: 0.8;">
+                This report includes service announcements with Admin or User impact from the last 7 days.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

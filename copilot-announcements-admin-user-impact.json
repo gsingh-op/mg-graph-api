@@ -256,23 +256,6 @@
   },
   {
     "LastUpdated": "September 22, 2025",
-    "StartDate": "August 13, 2025",
-    "EndDate": "October 18, 2025",
-    "Title": "Build and analyze surveys with Surveys Agent in Microsoft 365 Copilot",
-    "Id": "MC1134742",
-    "Category": "stayInformed",
-    "Severity": "normal",
-    "IsMajorChange": false,
-    "Tags": "Updated message, New feature",
-    "ActionRequiredByDateTime": null,
-    "Services": "Microsoft Copilot (Microsoft 365)",
-    "RoadmapIds": null,
-    "Summary": "Surveys Agent in Microsoft 365 Copilot enables users to create, distribute, and analyze surveys via chat, powered by Microsoft Forms. Public preview starts mid-August 2025; general availability rolls out late September to early October 2025. The feature is off by default and requires admin configuration and licensing.",
-    "Platforms": null,
-    "MessageCenterLink": "https://admin.microsoft.com/#/MessageCenter/:/messages/MC1134742"
-  },
-  {
-    "LastUpdated": "September 22, 2025",
     "StartDate": "September 18, 2025",
     "EndDate": "April 01, 2026",
     "Title": "(Updated) Viva Engage: Agents in Viva Engage communities Public Preview",

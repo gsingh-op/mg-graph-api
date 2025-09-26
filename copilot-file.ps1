@@ -8,31 +8,31 @@ Import-Module Microsoft.Graph.Devices.ServiceAnnouncement
 
 # 1. Get the Top 3 service announcement message for the Copilot service
 
-Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot'))" -All | 
-    Select-Object -Property @{Name='LastUpdated'; Expression={if ($_.lastModifiedDateTime) { [DateTime]::Parse($_.lastModifiedDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
-                            @{Name='StartDate'; Expression={if ($_.startDateTime) { [DateTime]::Parse($_.startDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
-                            @{Name='EndDate'; Expression={if ($_.endDateTime) { [DateTime]::Parse($_.endDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
+# Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot'))" -All | 
+#     Select-Object -Property @{Name='LastUpdated'; Expression={if ($_.lastModifiedDateTime) { [DateTime]::Parse($_.lastModifiedDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
+#                             @{Name='StartDate'; Expression={if ($_.startDateTime) { [DateTime]::Parse($_.startDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
+#                             @{Name='EndDate'; Expression={if ($_.endDateTime) { [DateTime]::Parse($_.endDateTime).ToString("MMMM dd, yyyy") } else { $null }}},
                             
-                           title,
-                           id,
-                           category, 
-                           severity,
-                           isMajorChange,
-                        #    tags,
-                           @{Name='Tags'; Expression={($_.tags -join ", ")}},
-                           actionRequiredByDateTime,
-                        #    services,
-                           @{Name='Services'; Expression={($_.services -join ", ")}},
-                        #    details,
-                           @{Name='RoadmapIds'; Expression={($_.details | Where-Object {$_.Name -eq "RoadmapIds"}).Value}},
-                           @{Name='Summary'; Expression={($_.details | Where-Object {$_.Name -eq "Summary"}).Value}},
-                           @{Name='Platforms'; Expression={($_.details | Where-Object {$_.Name -eq "Platforms"}).Value}},
-                           @{Name='MessageCenterLink'; Expression={("https://admin.microsoft.com/#/MessageCenter/:/messages/{0}" -f $_.id)}} |
-                        #    @{Name='link'; Expression={("https://mc.merill.net/message/{0}" -f $_.id)}}
-                        #    body                
-    Sort-Object LastUpdated -Descending | 
-    ConvertTo-Json |
-    Out-File -FilePath "copilot-announcements-all.json"
+#                            title,
+#                            id,
+#                            category, 
+#                            severity,
+#                            isMajorChange,
+#                         #    tags,
+#                            @{Name='Tags'; Expression={($_.tags -join ", ")}},
+#                            actionRequiredByDateTime,
+#                         #    services,
+#                            @{Name='Services'; Expression={($_.services -join ", ")}},
+#                         #    details,
+#                            @{Name='RoadmapIds'; Expression={($_.details | Where-Object {$_.Name -eq "RoadmapIds"}).Value}},
+#                            @{Name='Summary'; Expression={($_.details | Where-Object {$_.Name -eq "Summary"}).Value}},
+#                            @{Name='Platforms'; Expression={($_.details | Where-Object {$_.Name -eq "Platforms"}).Value}},
+#                            @{Name='MessageCenterLink'; Expression={("https://admin.microsoft.com/#/MessageCenter/:/messages/{0}" -f $_.id)}} |
+#                         #    @{Name='link'; Expression={("https://mc.merill.net/message/{0}" -f $_.id)}}
+#                         #    body                
+#     Sort-Object LastUpdated -Descending | 
+#     ConvertTo-Json |
+#     Out-File -FilePath "copilot-announcements-all.json"
 
 # filter out where lastmodifiedtime > Jun 2025
 # Get-Content "copilot-announcements-all.json" | 
@@ -41,12 +41,14 @@ Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot')
 #     ConvertTo-Json |
 #     Out-File -FilePath "copilot-announcements-since-june.json"
 
-# filter out where isMajorChange is true
-# Get-Content "copilot-announcements-all.json" | 
-#     ConvertFrom-Json |
-#     Where-Object { $_.IsMajorChange -eq $true } |
-#     ConvertTo-Json |
-#     Out-File -FilePath "copilot-announcements-major-changes.json"
+# filter out where isMajorChange is true in the last 7 days LastUpdated
+Get-Content "copilot-announcements-all.json" | 
+    ConvertFrom-Json |
+    # Where-Object { $_.IsMajorChange -eq $true } |
+    Where-Object { $_.Tags -like "*Admin impact*" -or $_.Tags -like "*User impact*" } |
+    Where-Object { [DateTime]::Parse($_.LastUpdated) -gt (Get-Date).AddDays(-7) } |
+    ConvertTo-Json |
+    Out-File -FilePath "copilot-announcements-admin-user-impact.json"
 
 # 1b. Filter by specific RoadmapId
 # $targetRoadmapId = "478611"  # Change this to the roadmap ID you want to filter by
