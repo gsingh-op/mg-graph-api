@@ -30,7 +30,7 @@ Get-MgServiceAnnouncementMessage -Filter "services/any(s: contains(s, 'Copilot')
                            @{Name='MessageCenterLink'; Expression={("https://admin.microsoft.com/#/MessageCenter/:/messages/{0}" -f $_.id)}} |
                         #    @{Name='link'; Expression={("https://mc.merill.net/message/{0}" -f $_.id)}}
                         #    body                
-    Sort-Object LastUpdated -Descending | 
+    Sort-Object { [DateTime]::Parse($_.LastUpdated) } -Descending | 
     ConvertTo-Json |
     Out-File -FilePath "copilot-announcements-all.json"
 
@@ -47,6 +47,7 @@ Get-Content "copilot-announcements-all.json" |
     # Where-Object { $_.IsMajorChange -eq $true } |
     Where-Object { $_.Tags -like "*Admin impact*" -or $_.Tags -like "*User impact*" } |
     Where-Object { [DateTime]::Parse($_.LastUpdated) -gt (Get-Date).AddDays(-7) } |
+    Sort-Object { [DateTime]::Parse($_.LastUpdated) } -Descending |
     ConvertTo-Json |
     Out-File -FilePath "copilot-announcements-admin-user-impact.json"
 
